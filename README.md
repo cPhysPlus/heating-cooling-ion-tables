@@ -45,7 +45,9 @@ Generated using: https://github.com/cPhysPlus/py4radiation together with the CLO
 
 ## Citation
 
-[Zenodo DOI will be added here.]
+If you downdload and use these tables, please cite the reference paper:
+
+A Zenodo DOI will be added later.
 
 ## Licence
 
