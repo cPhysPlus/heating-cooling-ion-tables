@@ -25,14 +25,14 @@ The datasets are organised into three groups, each containing two files at diffe
 
 Ion fraction tables are provided in HDF5 format for the same three radiation fields and two resolutions.
 
-| Radiation Field | Format | Resolution | Download |
+| Radiation Field | Format | Resolution (n,T,z) | Download |
 |:----------------|:------:|:----------:|:--------:|
-| meta-galactic   | HDF5 | Low | [Low resolution](./ion_fractions/metagalactic_low.h5) |
-| meta-galactic   | HDF5 | High | [High resolution](./ion_fractions/metagalactic_high.h5) |
-| starburst-5kpc  | HDF5 | Low | [Low resolution](./ion_fractions/starburst_5kpc_low.h5) |
-| starburst-5kpc  | HDF5 | High | [High resolution](./ion_fractions/starburst_5kpc_high.h5) |
-| starburst-1kpc  | HDF5 | Low | [Low resolution](./ion_fractions/starburst_1kpc_low.h5) |
-| starburst-1kpc  | HDF5 | High | [High resolution](./ion_fractions/starburst_1kpc_high.h5) |
+| meta-galactic   | HDF5 | Low (27,81,2) | [Low resolution](./ion_fractions/metagalactic_low.h5) |
+| meta-galactic   | HDF5 | High (105,321,2) | [High resolution](./ion_fractions/metagalactic_high.h5) |
+| starburst-5kpc  | HDF5 | Low (27,81,2) | [Low resolution](./ion_fractions/starburst_5kpc_low.h5) |
+| starburst-5kpc  | HDF5 | High (105,321,2) | [High resolution](./ion_fractions/starburst_5kpc_high.h5) |
+| starburst-1kpc  | HDF5 | Low (27,81,2) | [Low resolution](./ion_fractions/starburst_1kpc_low.h5) |
+| starburst-1kpc  | HDF5 | High (105,321,2) | [High resolution](./ion_fractions/starburst_1kpc_high.h5) |
 
 ## 3. Download
 
