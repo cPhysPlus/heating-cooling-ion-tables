@@ -1,11 +1,14 @@
-# Catalogue: `py4radiation` Datasets
+# Catalogue: py4radiation Datasets
 
 This repository provides ready-to-use datasets generated with [py4radiation](https://github.com/cPhysPlus/py4radiation), including:
 
-- Heating and cooling functions in ASCII format.
-- Ion fraction tables in HDF5 format.
+- **Heating and cooling functions in ASCII format:** these can be readily coupled to any existing hydrodynamic code.
+  
+- **Ion fraction tables in HDF5 format:** these can be readily coupled to post-processing tools, like Trident.
 
-## 1. Tabulated Heating and Cooling Functions
+## Data Description
+
+### 1. Tabulated Heating and Cooling Functions
 
 The datasets are organised into three groups, each containing two files at different resolutions.
 
@@ -18,7 +21,7 @@ The datasets are organised into three groups, each containing two files at diffe
 | starburst-1kpc  | ASCII | Low (27, 81) | [Low resolution](./heating_cooling/starburst_1kpc_low.dat) |
 | starburst-1kpc  | ASCII | High (105, 321) | [High resolution](./heating_cooling/starburst_1kpc_high.dat) |
 
-## 2. Tabulated Ion Fraction Tables
+### 2. Tabulated Ion Fraction Tables
 
 Ion fraction tables are provided in HDF5 format for the same three radiation fields and two resolutions.
 
@@ -31,30 +34,26 @@ Ion fraction tables are provided in HDF5 format for the same three radiation fie
 | starburst-1kpc  | HDF5 | Low | [Low resolution](./ion_fractions/starburst_1kpc_low.h5) |
 | starburst-1kpc  | HDF5 | High | [High resolution](./ion_fractions/starburst_1kpc_high.h5) |
 
-## 3. Data Description
-
-Describe the physical quantities, units, dimensions, resolution, and file structure of the datasets.
-
-## 4. Download
+## 3. Download
 
 All datasets are available individually through the download links above or collectively from the [GitHub Releases](../../releases) page.
 
-## 5. Software
+## 4. Software
 
 The datasets were generated using [py4radiation](https://github.com/cPhysPlus/py4radiation), together with the CLOUDY C13 code and Starburst99.
 
-## 6. Citation
+## 5. Citation
 
 If you download and use these datasets in your research, please cite the following reference:
 
 [Reference paper to be added]
 
-## 7. Licence
+## 6. Licence
 
 Copyright (c) 2026 Universidad Yachay Tech.
 
 The datasets are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](./LICENSE) licence.
 
-## 8. Authors
+## 7. Authors
 
 D. Villarruel-Yanez, W. E. Banda-Barragan & B. Casavecchia
