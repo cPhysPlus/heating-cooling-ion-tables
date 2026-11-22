@@ -4,7 +4,7 @@ This repository provides ready-to-use datasets generated with [py4radiation](htt
 
 - **Heating and cooling functions in ASCII format:** these can be readily coupled to any existing hydrodynamic code.
   
-- **Ion fraction tables in HDF5 format:** these can be readily coupled to post-processing tools, like Trident.
+- **Ion fraction tables in HDF5 format:** these can be readily coupled to post-processing tools, like [Trident](https://github.com/trident-project/trident).
 
 ## Data Description
 
