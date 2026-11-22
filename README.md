@@ -14,7 +14,7 @@ The datasets are organised into three groups, each containing two files at diffe
 
 | Radiation Field | Format | Resolution ($n_{\rm H},T$) | File size | Download |
 |:----------------|:------:|:----------------------------:|:---------:|:--------:|
-| meta-galactic   | ASCII | Low (27, 81) | 160 KB | [Low resolution](./heating_cooling/metagalactic_low.dat) |
+| meta-galactic   | ASCII | Low ($27, 81$) | 160 KB | [Low resolution](./heating_cooling/metagalactic_low.dat) |
 | meta-galactic   | ASCII | High (105, 321) | 2.4 MB | [High resolution](./heating_cooling/metagalactic_high.dat) |
 | starburst-5kpc  | ASCII | Low (27, 81) | 160 KB | [Low resolution](./heating_cooling/starburst_5kpc_low.dat) |
 | starburst-5kpc  | ASCII | High (105, 321) | 2.4 MB | [High resolution](./heating_cooling/starburst_5kpc_high.dat) |
