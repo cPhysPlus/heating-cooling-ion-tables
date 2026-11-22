@@ -56,3 +56,6 @@ Copyright (c) 2026 Universidad Yachay Tech
 The datasets are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 https://creativecommons.org/licenses/by/4.0
+
+## Authors:
+D. Villarruel-Yanez, W.E. Banda-Barragan & B. Casavecchia
