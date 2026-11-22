@@ -11,14 +11,14 @@ This repository provides ready-to-use datasets generated with py4radiation, whic
 
 The datasets are organised into three groups, each containing two files.
 
-| Radiation Field | Format | Resolution |
+| Radiation Field | Format | Resolution (nH, T) |
 |---|---|---|
-| meta-galactic | ASCII | Low |
-| meta-galactic | ASCII | High |
-| starburst-5kpc | ASCII | High |
-| starburst-5kpc | ASCII | Low |
-| starburst-1kpc | ASCII | High |
-| starburst-1kpc | ASCII | Low |
+| meta-galactic | ASCII | Low  (27,81) |
+| meta-galactic | ASCII | High (105,321) |
+| starburst-5kpc | ASCII | Low (27,81)|
+| starburst-5kpc | ASCII | High (105,321)|
+| starburst-1kpc | ASCII | Low (27,81)|
+| starburst-1kpc | ASCII | High (105,321) |
 
 ## 2. Tabulated ion fraction tables:
 
