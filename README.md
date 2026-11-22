@@ -1,61 +1,60 @@
+# Catalogue: `py4radiation` Datasets
 
-# py4radiation Datasets
-
-This repository provides ready-to-use datasets generated with py4radiation, which include:
+This repository provides ready-to-use datasets generated with [py4radiation](https://github.com/cPhysPlus/py4radiation), including:
 
 - Heating and cooling functions in ASCII format.
-  
 - Ion fraction tables in HDF5 format.
 
-## 1. Tabulated heating and cooling functions:
+## 1. Tabulated Heating and Cooling Functions
 
-The datasets are organised into three groups, each containing two files.
+The datasets are organised into three groups, each containing two files at different resolutions.
 
-| Radiation Field | Format | Resolution (nH, T) |
-|---|---|---|
-| meta-galactic | ASCII | Low  (27,81) |
-| meta-galactic | ASCII | High (105,321) |
-| starburst-5kpc | ASCII | Low (27,81)|
-| starburst-5kpc | ASCII | High (105,321)|
-| starburst-1kpc | ASCII | Low (27,81)|
-| starburst-1kpc | ASCII | High (105,321) |
+| Radiation Field | Format | Resolution ($n_{\rm H}$, $T$) | Download |
+|:----------------|:------:|:----------------------------:|:--------:|
+| meta-galactic   | ASCII | Low (27, 81) | [Low resolution](./heating_cooling/metagalactic_low.dat) |
+| meta-galactic   | ASCII | High (105, 321) | [High resolution](./heating_cooling/metagalactic_high.dat) |
+| starburst-5kpc  | ASCII | Low (27, 81) | [Low resolution](./heating_cooling/starburst_5kpc_low.dat) |
+| starburst-5kpc  | ASCII | High (105, 321) | [High resolution](./heating_cooling/starburst_5kpc_high.dat) |
+| starburst-1kpc  | ASCII | Low (27, 81) | [Low resolution](./heating_cooling/starburst_1kpc_low.dat) |
+| starburst-1kpc  | ASCII | High (105, 321) | [High resolution](./heating_cooling/starburst_1kpc_high.dat) |
 
-## 2. Tabulated ion fraction tables:
+## 2. Tabulated Ion Fraction Tables
 
-| Radiation Field | Format | Resolution |
-|---|---|---|
-| meta-galactic | HDF5 | Low |
-| meta-galactic | HDF5 | High |
-| starburst-5kpc | HDF5 | High |
-| starburst-5kpc | HDF5 | Low |
-| starburst-1kpc | HDF5 | High |
-| starburst-1kpc | HDF5 | Low |
+Ion fraction tables are provided in HDF5 format for the same three radiation fields and two resolutions.
 
-## Data description
+| Radiation Field | Format | Resolution | Download |
+|:----------------|:------:|:----------:|:--------:|
+| meta-galactic   | HDF5 | Low | [Low resolution](./ion_fractions/metagalactic_low.h5) |
+| meta-galactic   | HDF5 | High | [High resolution](./ion_fractions/metagalactic_high.h5) |
+| starburst-5kpc  | HDF5 | Low | [Low resolution](./ion_fractions/starburst_5kpc_low.h5) |
+| starburst-5kpc  | HDF5 | High | [High resolution](./ion_fractions/starburst_5kpc_high.h5) |
+| starburst-1kpc  | HDF5 | Low | [Low resolution](./ion_fractions/starburst_1kpc_low.h5) |
+| starburst-1kpc  | HDF5 | High | [High resolution](./ion_fractions/starburst_1kpc_high.h5) |
 
-Describe the physical quantities, units, dimensions, resolution and file structure.
+## 3. Data Description
 
-## Download
+Describe the physical quantities, units, dimensions, resolution, and file structure of the datasets.
 
-All datasets are available from the [GitHub Releases](../../releases) page.
+## 4. Download
 
-## Software
+All datasets are available individually through the download links above or collectively from the [GitHub Releases](../../releases) page.
 
-Generated using: https://github.com/cPhysPlus/py4radiation together with the CLOUDY C13 code and Starburst99.
+## 5. Software
 
-## Citation
+The datasets were generated using [py4radiation](https://github.com/cPhysPlus/py4radiation), together with the CLOUDY C13 code and Starburst99.
 
-If you downdload and use these tables, please cite the reference paper:
+## 6. Citation
 
-A Zenodo DOI will be added later.
+If you download and use these datasets in your research, please cite the following reference:
 
-## Licence
+[Reference paper to be added]
 
-Copyright (c) 2026 Universidad Yachay Tech
+## 7. Licence
 
-The datasets are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
+Copyright (c) 2026 Universidad Yachay Tech.
 
-https://creativecommons.org/licenses/by/4.0
+The datasets are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](./LICENSE) licence.
 
-## Authors:
-D. Villarruel-Yanez, W.E. Banda-Barragan & B. Casavecchia
+## 8. Authors
+
+D. Villarruel-Yanez, W. E. Banda-Barragan & B. Casavecchia
