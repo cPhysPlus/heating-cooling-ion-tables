@@ -51,7 +51,7 @@ A Zenodo DOI will be added later.
 
 ## Licence
 
-Copyright (c) 2026 Universidad Yachay TEch
+Copyright (c) 2026 Universidad Yachay Tech
 
 The datasets are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
 
