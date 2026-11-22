@@ -40,13 +40,13 @@ All datasets are available individually through the download links above or coll
 
 ## 4. Software
 
-The datasets were generated using [py4radiation](https://github.com/cPhysPlus/py4radiation), together with the CLOUDY C13 code and Starburst99.
+The datasets were generated using [py4radiation](https://github.com/cPhysPlus/py4radiation), together with the Cloudy code and Starburst99.
 
 ## 5. Citation
 
 If you download and use these datasets in your research, please cite the following reference:
 
-[Reference paper to be added]
+Reference paper to be added.
 
 ## 6. Licence
 
