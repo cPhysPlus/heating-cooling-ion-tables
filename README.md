@@ -1,16 +1,17 @@
 
-# Catalogue: py4radiation Datasets
+# Catalogue: py4radiation datasets
 
 This repository provides ready-to-use datasets generated with [py4radiation](https://github.com/cPhysPlus/py4radiation), including:
 
 - **Heating and cooling functions in ASCII format:** these can be readily coupled to any existing hydrodynamic code, like [PLUTO/gPLUTO](https://plutocode.ph.unito.it).
+  
 - **Ion fraction tables in HDF5 format:** these can be readily coupled to post-processing tools, like [Trident](https://github.com/trident-project/trident).
 
 ## Data Description
 
 ### 1. Tabulated Heating and Cooling Functions
 
-The datasets are organised into three groups, each containing two files at different resolutions.
+Heating/cooling tables are provided in ASCII format (`.dat`) for three radiation fields and two grid resolutions.
 
 | Radiation Field | Format | Resolution ($n_{\rm H},T$) | File size | Download |
 |:----------------|:------:|:----------------------------:|:---------:|:--------:|
@@ -23,7 +24,7 @@ The datasets are organised into three groups, each containing two files at diffe
 
 ### 2. Tabulated Ion Fraction Tables
 
-Ion fraction tables are provided in HDF5 format for the same three radiation fields and two resolutions.
+Ion fraction tables are provided in HDF5 format (`.h5`) for the same three radiation fields and two grid resolutions.
 
 | Radiation Field | Format | Resolution ($n_{\rm H},T,z$) | File size | Download |
 |:----------------|:------:|:----------------------------:|:---------:|:--------:|
