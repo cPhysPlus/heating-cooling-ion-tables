@@ -38,7 +38,7 @@ Ion fraction tables are provided in HDF5 format for the same three radiation fie
 
 All datasets are available individually through the download links above or collectively from the [GitHub Releases](https://github.com/cPhysPlus/heating-cooling-ion-tables/releases) page.
 
-The complete dataset comprises 12 files with a total download size of approximately **821.49 MB (0.82 GB)**.
+The complete dataset comprises 12 files with a total download size of approximately 822 MB (0.82 GB).
 
 ## 4. Software
 
