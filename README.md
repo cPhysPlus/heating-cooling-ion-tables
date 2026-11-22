@@ -33,8 +33,7 @@ The datasets are organised into three groups, each containing two files.
 
 ## Data description
 
-[Describe the physical quantities, units, dimensions,
-resolution and file structure.]
+Describe the physical quantities, units, dimensions, resolution and file structure.
 
 ## Download
 
