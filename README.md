@@ -2,7 +2,7 @@
 
 This repository provides ready-to-use datasets generated with [py4radiation](https://github.com/cPhysPlus/py4radiation), including:
 
-- **Heating and cooling functions in ASCII format:** these can be readily coupled to any existing hydrodynamic code.
+- **Heating and cooling functions in ASCII format:** these can be readily coupled to any existing hydrodynamic code, like [PLUTO/gPLUTO](https://plutocode.ph.unito.it).
   
 - **Ion fraction tables in HDF5 format:** these can be readily coupled to post-processing tools, like [Trident](https://github.com/trident-project/trident).
 
